@@ -1,8 +1,14 @@
 import sys
 
-# 
-def fizzbuzz(input):
+# Typical fizzbuzz interview question response
+def fizzbuzz(input: int):
   """
+  Typical fizzbuzz interview question response.
+  Given an input integer:
+  - If the number is a multiple of 3, return 'fizz'
+  - If the number is a multiple of 5, return 'buzz'
+  - If the number is a multiple of both 3 and 5, return 'fizzbuzz'
+  - Otherwise return the input number
   """
   if type(input) != int:
     raise TypeError('Invalid argument type')
@@ -16,6 +22,7 @@ def fizzbuzz(input):
     return 'buzz'
   return str(input)
 
+# Trivial CLI wrapper for fizzbuzz function
 if __name__ == '__main__':
   if len(sys.argv) < 2:
     raise TypeError('missing argument')
