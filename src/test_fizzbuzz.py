@@ -27,6 +27,17 @@ class TestFizzbuzzClass:
       raised = True
     assert raised == True
 
+  def test_bool(self):
+    """
+    fizzbuzz should raise a TypeError when passed bool
+    """
+    raised = False
+    try:
+      fizzbuzz(False)
+    except:
+      raised = True
+    assert raised == True
+
   def test_int_negative(self):
     """
     fizzbuzz should raise a ValueError when passed a negative integer
