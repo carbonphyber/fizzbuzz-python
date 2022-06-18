@@ -104,42 +104,42 @@ class TestFizzbuzzClass:
 
   def test_int_seven(self):
     """
-    fizzbuzz should return '7' when passed 3
+    fizzbuzz should return '7' when passed 7
     """
     output = fizzbuzz(7)
     assert output == '7'
 
   def test_int_nine(self):
     """
-    fizzbuzz should return 'fizz' when passed 3
+    fizzbuzz should return 'fizz' when passed 9
     """
     output = fizzbuzz(9)
     assert output == 'fizz'
 
   def test_int_ten(self):
     """
-    fizzbuzz should return 'buzz' when passed 5
+    fizzbuzz should return 'buzz' when passed 10
     """
     output = fizzbuzz(10)
     assert output == 'buzz'
 
   def test_int_fifteen(self):
     """
-    fizzbuzz should return 'buzz' when passed 5
+    fizzbuzz should return 'buzz' when passed 15
     """
     output = fizzbuzz(15)
     assert output == 'fizzbuzz'
 
   def test_int_sixteen(self):
     """
-    fizzbuzz should return '16' when passed 5
+    fizzbuzz should return '16' when passed 16
     """
     output = fizzbuzz(16)
     assert output == '16'
 
   def test_int_thirty(self):
     """
-    fizzbuzz should return 'fizzbuzz' when passed 5
+    fizzbuzz should return 'fizzbuzz' when passed 30
     """
     output = fizzbuzz(30)
     assert output == 'fizzbuzz'
